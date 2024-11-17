@@ -92,6 +92,7 @@ body {
     z-index: 2;
     transform: scale(1);
     transition: all .5s ease-in-out;
+    color: #333;
 }
 #btn__letter:active{
     transform: scale(0.7);
