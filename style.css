@@ -238,11 +238,11 @@ body {
     font-size: 1.2rem;
 }
 .name span{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 .right .box__account{
     position: relative;
-    transform: translateY(700px);
+    transform: translateY(1000px);
     animation: topBoxImage 8s 7s forwards ease-in;
 }
 @keyframes topBoxImage{
