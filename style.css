@@ -73,7 +73,7 @@ body {
 }
 .left .btn{
     transform: scale(0);
-    animation: scaleCricle 2s 16s forwards ease-in-out;
+    animation: scaleCricle 2s 11s forwards ease-in-out;
 }
 #btn__letter{
     position: relative;
@@ -199,7 +199,7 @@ body {
     opacity: 0;
     visibility: hidden;
     width: 0px;
-    animation: dateOfBirth 5s 9s forwards;
+    animation: dateOfBirth 5s 5s forwards;
 }
 @keyframes dateOfBirth{
     20%,40%{
@@ -226,13 +226,15 @@ body {
 }
 .name{
     position: absolute;
-    padding: 0px 40px;
+    width: 110%;
+    left: -5%;
+    padding: 0px 30px;
     bottom: -20px;
     border: 3px solid var(--color-black);
 }
 .date__of__birth span, .name span{
     font-weight: bold;
-    margin: 0px 40px;
+    margin: 0px 20px;
 }
 .date__of__birth span{
     font-size: 1.2rem;
@@ -243,7 +245,7 @@ body {
 .right .box__account{
     position: relative;
     transform: translateY(1000px);
-    animation: topBoxImage 8s 7s forwards ease-in;
+    animation: topBoxImage 5s 4s forwards ease-in;
 }
 @keyframes topBoxImage{
     to{
@@ -273,7 +275,7 @@ body {
     justify-content: center;
     align-items: center;
     transform: scale(0);
-    animation: scaleCricle 3s 15s forwards ease-in-out;
+    animation: scaleCricle 3s 11s forwards ease-in-out;
 }
 @keyframes scaleCricle {
     0%{
@@ -451,7 +453,7 @@ body {
     bottom: 180px;
     left: 555px;
     transform: scale(0);
-    animation: scaleCricle 3s 15s forwards ease-in-out;
+    animation: scaleCricle 3s 11s forwards ease-in-out;
 }
 
 
